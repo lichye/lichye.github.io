@@ -1,0 +1,44 @@
+/* --- Sidebar vertical center alignment --- */
+.side-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center /* 关键：所有内容与头像中心对齐 */;
+  justify-content: flex-start;
+  text-align: center /* 文字也居中 */;
+  margin: 0 auto;
+}
+/* Avatar 样式 */
+.side-card .author-avatar img {
+  width: 400px !important;
+  height: auto !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  object-fit: contain !important;
+  margin-bottom: 5px;
+}
+/* 社交图标整体居中 */
+.side-card .social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+  text-align: center;
+}
+.side-card .social-icons li {
+  display: inline-block;
+  margin: 0 3px;
+}
+/* CV 链接居中 */
+.side-card .cv-links {
+  margin-top: 12px;
+  text-align: center;
+  display: inline-block;
+}
+/* 强制放大主页和 about 页文字 */
+.page,
+.page p,
+.page-content,
+.post-body {
+  font-size: 20px !important;
+  line-height: 1.7 !important;
+}
