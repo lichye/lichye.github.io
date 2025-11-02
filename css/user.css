@@ -34,11 +34,17 @@
   text-align: center;
   display: inline-block;
 }
-/* 强制放大主页和 about 页文字 */
-.page,
-.page p,
-.page-content,
-.post-body {
+/* 强制放大 About 页所有文字，包括列表 */
+.page *,
+.page-content *,
+.post-body * {
   font-size: 20px !important;
-  line-height: 1.7 !important;
+  line-height: 1.5 !important;
+}
+.page h2,
+.page-content h2,
+.post-body h2 {
+  font-size: 26px !important;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
 }

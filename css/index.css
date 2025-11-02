@@ -30,12 +30,18 @@
   text-align: center;
   display: inline-block;
 }
-.page,
-.page p,
-.page-content,
-.post-body {
+.page *,
+.page-content *,
+.post-body * {
   font-size: 20px !important;
-  line-height: 1.7 !important;
+  line-height: 1.5 !important;
+}
+.page h2,
+.page-content h2,
+.post-body h2 {
+  font-size: 26px !important;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
 }
 .page pre,
 .page .highlight {
