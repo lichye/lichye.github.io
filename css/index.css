@@ -1,9 +1,9 @@
 .side-card {
   display: flex;
   flex-direction: column;
-  align-items: center /* 关键：所有内容与头像中心对齐 */;
+  align-items: center;
   justify-content: flex-start;
-  text-align: center /* 文字也居中 */;
+  text-align: center;
   margin: 0 auto;
 }
 .side-card .author-avatar img {
@@ -36,9 +36,9 @@
   font-size: 20px !important;
   line-height: 1.5 !important;
 }
-.page h2,
-.page-content h2,
-.post-body h2 {
+#Leiqi-Ye,
+#News,
+#Publications {
   font-size: 26px !important;
   margin-top: 1.2em;
   margin-bottom: 0.6em;
