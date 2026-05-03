@@ -2,12 +2,12 @@
 .side-card {
   display: flex;
   flex-direction: column;
-  align-items: center /* 关键：所有内容与头像中心对齐 */;
+  align-items: center /* ?????????????? */;
   justify-content: flex-start;
-  text-align: center /* 文字也居中 */;
+  text-align: center /* ????? */;
   margin: 0 auto;
 }
-/* Avatar 样式 */
+/* Avatar ?? */
 .side-card .author-avatar img {
   width: 400px !important;
   height: auto !important;
@@ -17,7 +17,7 @@
   object-fit: contain !important;
   margin-bottom: 5px;
 }
-/* 社交图标整体居中 */
+/* ???????? */
 .side-card .social-icons {
   list-style: none;
   padding: 0;
@@ -28,21 +28,24 @@
   display: inline-block;
   margin: 0 3px;
 }
-/* CV 链接居中 */
+/* CV ???? */
 .side-card .cv-links {
   margin-top: 12px;
   text-align: center;
   display: inline-block;
 }
-/* 强制放大 About 页所有文字，包括列表 */
+/* ???? About ?????????? */
 .page *,
 .page-content *,
 .post-body * {
   font-size: 20px !important;
   line-height: 1.5 !important;
 }
+.page h1,
 .page h2,
+.page-content h1,
 .page-content h2,
+.post-body h1,
 .post-body h2 {
   font-size: 26px !important;
   margin-top: 1.2em;
